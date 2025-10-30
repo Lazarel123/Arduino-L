@@ -55,10 +55,6 @@
             
             <li class="nav-item" data-bs-level="1"><a href="#arduino-lg" class="nav-link">Arduino-LG</a>
               <ul class="nav flex-column">
-            <li class="nav-item" data-bs-level="2"><a href="#example-blinking-led" class="nav-link">Example: Blinking LED</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
               </ul>
             </li>
         </ul>
@@ -67,20 +63,16 @@
                     <div class="col-md-9" role="main">
 
 <h1 id="arduino-lg">Arduino-LG</h1>
-<p>Welcome to <strong>Arduino-LG</strong>!  </p>
-<p>This website is dedicated to sharing Arduino code examples, tutorials, and tips for beginners and enthusiasts.</p>
-<hr />
-<h2 id="example-blinking-led">Example: Blinking LED</h2>
+<p>Welcome to Arduino-LG!  </p>
+<p>Here is some example code:</p>
 <p>```cpp
-// Blink an LED on pin 13
+// Example Arduino code
 void setup() {
-  pinMode(13, OUTPUT);
-}</p>
-<p>void loop() {
-  digitalWrite(13, HIGH);  // Turn LED on
-  delay(1000);              // Wait 1 second
-  digitalWrite(13, LOW);   // Turn LED off
-  delay(1000);              // Wait 1 second
+  Serial.begin(9600);
+}
+void loop() {
+  Serial.println("Hello, Arduino-LG!");
+  delay(1000);
 }</p></div>
             </div>
         </div>
@@ -163,5 +155,5 @@ void setup() {
 
 <!--
 MkDocs version : 1.6.1
-Build Date UTC : 2025-10-30 10:54:30.948386+00:00
+Build Date UTC : 2025-10-30 10:55:58.575510+00:00
 -->
