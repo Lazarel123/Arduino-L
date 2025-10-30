@@ -53,13 +53,12 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-bs-level="2"><a href="#commands" class="nav-link">Commands</a>
+            <li class="nav-item" data-bs-level="1"><a href="#arduino-lg" class="nav-link">Arduino-LG</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#example-blinking-led" class="nav-link">Example: Blinking LED</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            
-            <li class="nav-item" data-bs-level="2"><a href="#project-layout" class="nav-link">Project layout</a>
-              <ul class="nav flex-column">
               </ul>
             </li>
         </ul>
@@ -67,32 +66,22 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<p>1s# Welcome to MkDocs</p>
-<p>For full documentation visit <a href="https://www.mkdocs.org">mkdocs.org</a>.</p>
-<h2 id="commands">Commands</h2>
-<ul>
-<li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
-<li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
-<li><code>mkdocs build</code> - Build the documentation site.</li>
-<li><code>mkdocs -h</code> - Print help message and exit.</li>
-</ul>
-<h2 id="project-layout">Project layout</h2>
-<pre><code>mkdocs.yml    # The configuration file.
-docs/
-    index.md  # The documentation homepage.
-    ...       # Other markdown pages, images and other files.
-</code></pre>
-<p>code.
-code .
-notepad mkdocs.ym1
-notepad docs/index.md
-notepad docs/code/example1.md
-nano docs/index.md
-mkdocs serve
-git add .
-git commit -m "Add new code files"
-git push -u origin main
-mkdocs gh-deploy</p></div>
+<h1 id="arduino-lg">Arduino-LG</h1>
+<p>Welcome to <strong>Arduino-LG</strong>!  </p>
+<p>This website is dedicated to sharing Arduino code examples, tutorials, and tips for beginners and enthusiasts.</p>
+<hr />
+<h2 id="example-blinking-led">Example: Blinking LED</h2>
+<p>```cpp
+// Blink an LED on pin 13
+void setup() {
+  pinMode(13, OUTPUT);
+}</p>
+<p>void loop() {
+  digitalWrite(13, HIGH);  // Turn LED on
+  delay(1000);              // Wait 1 second
+  digitalWrite(13, LOW);   // Turn LED off
+  delay(1000);              // Wait 1 second
+}</p></div>
             </div>
         </div>
 
@@ -174,5 +163,5 @@ mkdocs gh-deploy</p></div>
 
 <!--
 MkDocs version : 1.6.1
-Build Date UTC : 2025-10-30 10:45:41.978371+00:00
+Build Date UTC : 2025-10-30 10:48:49.141692+00:00
 -->
