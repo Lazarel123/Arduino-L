@@ -1,7 +1,7 @@
 site_name: "Arduino-LG"
 site_description: "Shared Arduino Code by Reli"
 site_author: "Lazarel Goga"
-site_url: "https://<YOUR_USERNAME>.github.io/Arduino-L/"
+site_url: "https://<Lazarel.123>.github.io/Arduino-L/"
 
 theme:
   name: material
